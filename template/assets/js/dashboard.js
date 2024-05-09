@@ -102,7 +102,7 @@
           ctx.textBaseline = "middle";
           ctx.fillStyle = "#ffffff";
       
-          var text = "$1200", 
+          var text = "075", 
               textX = Math.round((width - ctx.measureText(text).width) / 2),
               textY = height / 2.4;
       
@@ -115,9 +115,9 @@
           ctx.textBaseline = "middle";
           ctx.fillStyle = "#6c7293";
 
-          var texts = "Total", 
-              textsX = Math.round((width - ctx.measureText(text).width) / 1.93),
-              textsY = height / 1.7;
+          var texts = "TOTAL", 
+              textsX = Math.round((width - ctx.measureText(text).width) / 2.1),
+              textsY = height / 1.8;
       
           ctx.fillText(texts, textsX, textsY);
           ctx.save();
@@ -172,7 +172,7 @@
           ctx.textBaseline = "middle";
           ctx.fillStyle = "#ffffff";
       
-          var text = "$1200", 
+          var text = "1200", 
               textX = Math.round((width - ctx.measureText(text).width) / 2),
               textY = height / 2.4;
       
